@@ -10,6 +10,13 @@
   </div>
 </template>
 
+<style scoped>
+.content{
+  left: 220px;
+  padding: 30px 20px 0px 10px;
+}
+</style>
+
 <script>
     import fjHeader from './common/Header.vue'
     import fjSidebar from './common/Sidebar.vue'

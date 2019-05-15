@@ -27,12 +27,21 @@
         
     </el-form>
         
-    <el-table :data="tableData" style="width: 100%" v-loading="loading2" element-loading-text="拼命加载中" @selection-change="handleSelectionChange">
-      <el-table-column type="selection" width="55"></el-table-column>
-      <el-table-column prop="name" label="姓名" width="180"></el-table-column> 
+    <el-table 
+      v-loading="loading2" 
+      :data="tableData" 
+      style="width: 100%" 
+      element-loading-text="拼命加载中" 
+      @selection-change="handleSelectionChange"
+      border
+      fit
+      highlight-current-row
+    >
+      <el-table-column align="center" type="selection" width="55"></el-table-column>
+      <el-table-column align="center" prop="name" label="姓名" width="180"></el-table-column> 
       <el-table-column prop="address" label="地址"></el-table-column> 
-      <el-table-column prop="date" label="日期" width="180"></el-table-column>
-      <el-table-column fixed="right" label="操作" width="140">
+      <el-table-column align="center" prop="date" label="日期" width="180"></el-table-column>
+      <el-table-column align="center" label="操作" width="140">
         <template scope="scope">
           <el-button @click="handleClick(scope.row)" type="text" size="small">查看</el-button>
           <el-button type="text" size="small"  @click="showEditDialog(scope.$index)">编辑</el-button>

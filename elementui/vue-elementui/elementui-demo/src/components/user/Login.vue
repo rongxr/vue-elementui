@@ -76,34 +76,39 @@
     .login-wrap{
        
         width:100%;
-        height:40%;
+        height:100%;
         -webkit-border-radius: 5px;
         border-radius: 5px;
         -moz-border-radius: 5px;
         background-clip: padding-box;
-        margin: 180px auto;
-        width: 350px;
+        /*margin: 180px auto;*/
+        /*width: 350px;*/
         padding: 35px 35px 15px 35px;
-        background: #fff;
+        /*background: #fff;*/
+        background: #2d3a4b;
         border: 1px solid #eaeaea;
         box-shadow: 0 0 25px #cac6c6;
     }
     .ms-title{
-        margin: -30px auto 40px auto;
+        margin: -20px auto 30px auto;
         text-align: center;
         font-size:30px;
-        color: #505458;
+        /*color: #505458;*/
+        color: #fff;
     }
     .ms-login{
         position: absolute;
-        left:50%;
-        top:50%;
-        width:300px;
-        height:160px;
+        left:48%;
+        top:35%;
+        width:380px;
+        height:190px;
         margin:-150px 0 0 -190px;
         padding:40px;
         border-radius: 5px;
-        background: #fff;
+        /*background: #fff;*/
+        background: #283443;
+        border: 1px solid #eaeaea;
+        box-shadow: 0 0 25px #cac6c6;
     }
     .login-btn{
         text-align: center;

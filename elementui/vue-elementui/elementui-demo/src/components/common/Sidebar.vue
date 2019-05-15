@@ -64,9 +64,18 @@
         left: 0;
         top: 70px;
         bottom:0;
-        background: #2E363F;
+        /*background: #2E363F;*/
     }
     .sidebar > ul {
         height:100%;
+    }
+    .el-menu{
+        background: #2d3a4b;
+    }
+    .el-menu-item{
+        background: #2d3a4b;
+    }
+    .el-menu-item.is-active{
+        background: #1f2d3d;
     }
 </style>

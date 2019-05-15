@@ -50,6 +50,7 @@
         font-size: 22px;
         line-height: 70px;
         color: #fff;
+        background: #1f2d3d;/*new*/
     }
     .header .logo{
         float: left;
