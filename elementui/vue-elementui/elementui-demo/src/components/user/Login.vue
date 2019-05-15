@@ -49,7 +49,8 @@
                             password: self.ruleForm.password
                         });
                         login(params).then(result => {
-                            if (result.status) {
+                            //if (result.status) {
+                            if (result.code==200) {
                                 sessionStorage.setItem('login_username',self.ruleForm.username);
                                 sessionStorage.setItem('token',result.data.token);
                                 sessionStorage.setItem('meuns',qs.stringify(result.data.meuns));

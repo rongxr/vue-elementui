@@ -156,7 +156,10 @@
         getUserList(params).then(function(result){
           this.tableData = result.data.list;
           this.total = result.data.total;
-          this.loading2 = false;
+          //this.loading2 = false;
+          setTimeout(()=>{
+            this.loading2 = false;
+          }, 200);
         }.bind(this)).catch(function (error) {
             this.loading2 = false;
             console.log(error);
