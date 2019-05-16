@@ -34,9 +34,24 @@ export const login = function (params) {
                                 'title': '用户信息'
                             }
                         ]
+                    },
+                    {
+                        'icon': 'el-icon-menu',
+                        'index': '3',
+                        'title': 'EXAMPLE',
+                        'subs': [
+                            {
+                                'index': '/example/table',
+                                'title': 'TABLE'
+                            },
+                            {
+                                'index': '/example/form',
+                                'title': 'FORM'
+                            }
+                        ]
                     }
                 ],
-                'routers': '/home_/users_/user/info'
+                'routers': '/home_/users_/user/info_/example/table_/example/form'
             }
         }
         resolve(res);
