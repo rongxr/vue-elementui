@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import mutations from './mutations'
-import actions from './actions'
+import mutations from '@/store/mutations.js'
+import actions from '@/store/actions.js'
 
 Vue.use(Vuex);
 

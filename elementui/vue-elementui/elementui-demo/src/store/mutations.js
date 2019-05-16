@@ -1,5 +1,5 @@
-import * as types from './mutation-types'
-import getters from './getters'
+import * as types from '@/store/mutation-types.js'
+import getters from '@/store/getters.js'
 
 const state = {
   headerStatus:true

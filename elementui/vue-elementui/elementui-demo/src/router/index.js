@@ -38,7 +38,7 @@ export const appRouter = {
     {
       path: 'user/info',
       title: '用户信息',
-      name: 'userProfile',
+      name: 'userInfo',
       component: () => import('@/views/user/UserInfo.vue')
     },
     //example

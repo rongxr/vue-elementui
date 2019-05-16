@@ -1,4 +1,4 @@
-import Axios from '../libs/AxiosPlugin'
+import Axios from '@/libs/AxiosPlugin'
 
 // 接口地址
 const BASE_PATH = process.env.API_URL

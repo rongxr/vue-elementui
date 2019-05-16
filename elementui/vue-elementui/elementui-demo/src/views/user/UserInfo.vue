@@ -42,7 +42,7 @@
   }
 </style>
 <script type="text/javascript">
-  import {uploadFile} from '../../api'
+  import {uploadFile} from '@/api/index.js'
 
   export default {
     data() {
@@ -56,7 +56,7 @@
       }
     },
     mounted() {
-      this.$store.dispatch('hideHeader');
+      //this.$store.dispatch('hideHeader');
     },
     methods: {
       handleAvatarSuccess(res, file) {
