@@ -44,7 +44,7 @@
 </template>
 
 <script>
-import { getList } from '@/api/example/table.js'
+import { getList } from '@/api/example.js'
 
 export default {
   filters: {

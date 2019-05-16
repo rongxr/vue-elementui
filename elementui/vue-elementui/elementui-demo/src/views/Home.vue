@@ -18,9 +18,9 @@
 </style>
 
 <script>
-    import fjHeader from './common/Header.vue'
-    import fjSidebar from './common/Sidebar.vue'
-    import {loadData} from '../api'
+    import fjHeader from '@/views/common/Header.vue'
+    import fjSidebar from '@/views/common/Sidebar.vue'
+    import {loadData} from '@/api/index.js'
 
     export default {
       components: {

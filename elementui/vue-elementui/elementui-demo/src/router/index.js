@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-import Home from '@/components/Home.vue'
-import Login from '@/components/user/Login.vue'
+import Home from '@/views/Home.vue'
+import Login from '@/views/login/Login.vue'
 
 Vue.use(Router)
 
@@ -26,33 +26,33 @@ export const appRouter = {
       path: '/home',
       title: '首页',
       name: 'dashboard',
-      component: () => import('@/components/Index.vue')
+      component: () => import('@/views/Index.vue')
     },
     //用户管理
     {
-      path: 'users',
+      path: 'user/list',
       title: '用户列表',
       name: 'userList',
-      component: () => import('@/components/user/Users.vue')
+      component: () => import('@/views/user/UserList.vue')
     },
     {
       path: 'user/info',
       title: '用户信息',
       name: 'userProfile',
-      component: () => import('@/components/user/UserInfo.vue')
+      component: () => import('@/views/user/UserInfo.vue')
     },
     //example
     {
       path: 'example/table',
       title: 'TABLE',
       name: 'exampleTable',
-      component: () => import('@/views/example/table/index.vue')
+      component: () => import('@/views/example/table.vue')
     },
     {
       path: 'example/form',
       title: 'FORM',
       name: 'exampleForm',
-      component: () => import('@/views/example/form/index.vue')
+      component: () => import('@/views/example/form.vue')
     }
 
   ]

@@ -99,7 +99,7 @@
   }
 </style>
 <script type="text/javascript">
-  import {getUserList} from '../../api'
+  import {getUserList} from '@/api/user.js'
 
   export default {
     data() {
